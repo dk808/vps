@@ -1,4 +1,4 @@
 #!/bin/bash    
 
 ./zcutil/fetch-params.sh && ./zcutil/build.sh -j$(nproc) && cd src
-/usr/bin/install -c vdld vdl-cli -t /usr/local/bin/
+/usr/bin/install -c vidulumd vidulum-cli -t /usr/local/bin/

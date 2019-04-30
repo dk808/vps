@@ -65,6 +65,8 @@ Install & configure your desired master node with options:
 ./install.sh -p vidulum -c 4 -n 6 -r “tags/v1.0.1”
 ```
 This is example for 4 VDL nodes to be installed using ipv6 addresses
+systemctl enable vidulum_n1
+systemctl start vidulum_n1
 
 ## Examples for typical script invocation
 

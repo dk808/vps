@@ -120,6 +120,7 @@ function install_packages() {
     libcurl4-gnutls-dev protobuf-compiler libboost-all-dev autotools-dev automake \
     libboost-all-dev libssl-dev make autoconf libtool git apt-utils g++ \
     libprotobuf-dev pkg-config libudev-dev libqrencode-dev bsdmainutils \
+    libc6-dev m4 g++-multilib ncurses-dev unzip python python-zmq zlib1g-dev wget curl libgomp1 \
     pkg-config libgmp3-dev libevent-dev jp2a pv virtualenv libdb4.8-dev libdb4.8++-dev  &>> ${SCRIPT_LOGFILE}
     
     # only for 18.04 // openssl

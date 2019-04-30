@@ -1,9 +1,5 @@
-#!/bin/bash    
-# this file contains all commands to compile and install the daemon
-chmod u+x share/genbuild.sh
-chmod u+x src/leveldb/build_detect_platform
-chmod u+x ./autogen.sh
-./autogen.sh
-./configure --disable-dependency-tracking --enable-tests=no --without-gui --without-miniupnpc 
-make
-make install
+#!/bin/bash
+chmod +x zcutil/fetch-params.sh
+chmod +x zcutil/build.sh depends/config.guess depends/config.sub autogen.sh share/genbuild.sh src/leveldb/build_detect_platform depends/Makefile
+./zcutil/fetch-params.sh && ./zcutil/build.sh --disable-rust && cd src
+/usr/bin/install -c vidulumd vidulum-cli -t /usr/local/bin/

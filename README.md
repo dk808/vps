@@ -62,8 +62,9 @@ git clone https://github.com/dk808/vps.git && cd vps
 Install & configure your desired master node with options:
 
 ```bash
-./install.sh -p pivx
+./install.sh -p vidulum -c 4 -n 6 -r “tags/v1.0.1”
 ```
+This is example for 4 VDL nodes to be installed using ipv6 addresses
 
 ## Examples for typical script invocation
 

@@ -1,0 +1,5 @@
+CODENAME=vidulum
+MNODE_DAEMON=${MNODE_DAEMON:-/usr/local/bin/vidulumd}
+MNODE_INBOUND_PORT=${MNODE_INBOUND_PORT:-7676}
+GIT_URL=https://github.com/vidulum/vidulum.git
+SCVERSION="tags/v1.0.1"

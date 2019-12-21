@@ -62,11 +62,11 @@ git clone https://github.com/dk808/vps.git && cd vps
 Install & configure your desired master node with options:
 
 ```bash
-./install.sh -p vidulum -c 4 -n 6 -r “tags/v1.0.1”
+./install.sh -p bzedge -c 4 -n 6 -r “tags/v3.0.0”
 ```
-This is example for 4 VDL nodes to be installed using ipv6 addresses
-systemctl enable vidulum_n1
-systemctl start vidulum_n1
+This is example for 4 BZE nodes to be installed using ipv6 addresses
+systemctl enable bzedge_n1
+systemctl start bzedge_n1
 
 ## Examples for typical script invocation
 

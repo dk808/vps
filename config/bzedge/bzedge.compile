@@ -1,4 +1,4 @@
 #!/bin/bash    
 
-./zcutil/fetch-params.sh && ./zcutil/build.sh -j$(nproc) && cd src
+./zcutil/fetch-params.sh && ./zcutil/build.sh --disable-tests -j$(nproc) && cd src
 /usr/bin/install -c bzedged bzedge-cli bzedge-tx -t /usr/local/bin/
